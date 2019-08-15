@@ -1,17 +1,12 @@
 ﻿using ApiPedidos.Models;
 using ConectarDatos;
-using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Security.Claims;
 using System.Text;
-using System.Threading;
 using System.Web.Http;
 
 namespace ApiPedidos.Controllers
@@ -19,20 +14,6 @@ namespace ApiPedidos.Controllers
     public class LoginController : ApiController
     {
 
-        [HttpGet]
-        [Route("echoping")]
-        public IHttpActionResult EchoPing()
-        {
-            return Ok(true);
-        }
-
-        [HttpGet]
-        [Route("echouser")]
-        public IHttpActionResult EchoUser()
-        {
-            var identity = Thread.CurrentPrincipal.Identity;
-            return Ok($" IPrincipal-user: {identity.Name} - IsAuthenticated: {identity.IsAuthenticated}");
-        }
 
         // POST: api/Login
         [HttpPost]
@@ -65,6 +46,11 @@ namespace ApiPedidos.Controllers
 
             }
 
+            if (usuario == null)
+            {
+                return null;
+            }
+
             return new UsuarioInfo()
             {
                 // Id del Usuario en el Sistema de Información (BD)
@@ -74,10 +60,7 @@ namespace ApiPedidos.Controllers
                 idRol = usuario.idRol
             };
 
-            if (usuario == null)
-            {
-                return null;
-            }
+
         }
 
         // GENERAMOS EL TOKEN CON LA INFORMACIÓN DEL USUARIO
@@ -101,11 +84,11 @@ namespace ApiPedidos.Controllers
 
             // CREAMOS LOS CLAIMS //
             var _Claims = new[] {
-                new Claim(Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames.NameId, usuarioInfo.idUsuario.ToString()),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(JwtRegisteredClaimNames.NameId, usuarioInfo.idUsuario.ToString()),
                 new Claim("Usuario", usuarioInfo.nUsuario),
                 new Claim("Pass", usuarioInfo.Contraseña),
-                new Claim(Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames.NameId, usuarioInfo.idRol.ToString()),
+                new Claim(ClaimTypes.Role, usuarioInfo.idRol.ToString()),
             };
 
             // CREAMOS EL PAYLOAD //
@@ -128,4 +111,3 @@ namespace ApiPedidos.Controllers
         }
     }
 }
-
