@@ -1,0 +1,30 @@
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.dll.config
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.pdb
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.xml
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.pdb
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.csprojResolveAssemblyReference.cache
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.dll.config
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.pdb
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.xml
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.pdb
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.dll.config
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\ConectarDatos.pdb
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.xml
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.csproj.CoreCompileInputs.cache
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.csproj.CopyComplete
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.dll
+C:\Users\Deyrin Bonilla\Desktop\ApiPedidos - Backup\ApiPedidos\ApiPedidos\ConectarDatos\obj\Debug\ConectarDatos.pdb

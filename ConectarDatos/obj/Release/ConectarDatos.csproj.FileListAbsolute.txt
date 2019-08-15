@@ -1,0 +1,10 @@
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Release\ConectarDatos.dll.config
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Release\ConectarDatos.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Release\ConectarDatos.pdb
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Release\EntityFramework.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Release\EntityFramework.SqlServer.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Release\EntityFramework.xml
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\bin\Release\EntityFramework.SqlServer.xml
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\obj\Release\ConectarDatos.dll
+c:\users\josseling\documents\visual studio 2017\Projects\ApiPedidos\ConectarDatos\obj\Release\ConectarDatos.pdb
+C:\Users\Josseling\Documents\Visual Studio 2017\Projects\ApiPedidos\ConectarDatos\obj\Release\ConectarDatos.csprojResolveAssemblyReference.cache
